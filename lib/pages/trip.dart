@@ -16,7 +16,7 @@ class TripPage extends StatefulWidget {
 }
 
 class _TripPageState extends State<TripPage> {
-  String url = '';
+  String url = 'http://10.160.10.196:3000';
   late TripIdxGetResponse tripIdxGetResponse;
   late Future<void> loadData;
 
